@@ -653,6 +653,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 26px;
   font-weight: 700;
   color: #000;
+  text-align: center
 }
 
 #advanced-features h3 {
@@ -661,12 +662,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 400;
   font-style: italic;
   color: #999;
+  text-align: center;
 }
 
 #advanced-features p {
   line-height: 24px;
   color: #777;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #advanced-features i {
@@ -830,6 +833,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team {
   padding: 60px 0;
   overflow: hidden;
+  display: flex;
+  align-self: center;
 }
 
 #team .member {
@@ -842,7 +847,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
   overflow: hidden;
   height: auto;
-  border-radius: 50%;
+  border-radius: 55%;
+  display: block;
 }
 
 #team .member .pic img {
@@ -885,6 +891,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 0 0;
   overflow: hidden;
   display: block;
+  justify-content: center;
 }
 
 #gallery .container-fluid {
@@ -910,6 +917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0;
   vertical-align: middle;
   text-align: center;
+  height: 240px;
 }
 
 #gallery .gallery-item img {
